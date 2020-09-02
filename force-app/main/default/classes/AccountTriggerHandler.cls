@@ -1,3 +1,4 @@
+/*Author: Dipen Ishani*/
 public class AccountTriggerHandler{
     public static void beforeMethod(list<Account> accList,Map<Id,Account> accMap){
         Set<Id> allInsertedIds = accMap.keySet();
