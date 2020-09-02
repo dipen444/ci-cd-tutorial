@@ -1,4 +1,5 @@
-/*Author: Dipen Ishani*/
+/*Author: Dipen Ishani
+  Date: 2nd September, 2020*/
 public class AccountTriggerHandler{
     public static void beforeMethod(list<Account> accList,Map<Id,Account> accMap){
         Set<Id> allInsertedIds = accMap.keySet();
